@@ -1,13 +1,4 @@
 
-<?php
-
-include_once '../config.php';
-$query = $pdo->prepare('SELECT * FROM blog_posts ORDER BY id DESC');
-$query->execute();
-
-$blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
-
-?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -29,7 +20,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
     <div class="row">
         <div class="col-12">
             <h2>Posts</h2>
-            <a class="btn btn-primary" href="insert-post.php">New Post</a>
+            <a class="btn btn-primary" href="<?php echo BASE_URL; ?>admin/posts/create">New Post</a>
                 <table class="table">
                     <caption>Table content blogs</caption>
                     <thead>
@@ -44,7 +35,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
                             <tr>
                                 <td><?php echo $blogPost['title']?></td>
                                 <td><a class="btn btn-warning" href="update-post.php">Edit</a></td>
-                                <td><a class="btn btn-danger" href="delete-post.php">Delete</a></td>
+                                <td><a class="btn btn-danger" href="<?php echo BASE_URL;?>admin/posts/delete?id=<?php echo $blogPost['id'] ?>">Delete</a></td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
@@ -55,7 +46,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
             <div class="col-12">
                 <footer>
                     This is a footer
-                    <a href="index.php">Admin Panel</a>
+                    <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
                 </footer>
             </div>
 
