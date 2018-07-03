@@ -1,27 +1,4 @@
 
-<?php
-
-include_once '../config.php';
-$result = false;
-
-if(!empty($_POST)){
-
-    $title = $_POST['title'];
-    $content = $_POST['content'];
-
-    if(!$title == null && !$content == null){
-        $sql = 'INSERT INTO blog_posts (title, content) VALUES (:title, :content)';
-        $query = $pdo->prepare($sql);
-        $result = $query->execute([
-            'title'=> $title,
-            'content' => $content
-        ]);
-    }else{
-        echo "<script>alert('Por favor, Ingrese los datos')</script>";
-    }
-}
-
-?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -43,10 +20,10 @@ if(!empty($_POST)){
     <div class="row">
         <div class="col-8">
             <h2>New Posts</h2>
-            <a class="btn btn-primary" style="margin-bottom: 10px" href="posts.php">Back</a>
-            <form action="insert-post.php" method="post">
+            <a class="btn btn-primary" style="margin-bottom: 10px" href="<?php echo BASE_URL; ?>admin/posts">Back</a>
+            <form method="post">
                 <?php
-                if ($result) {
+                if (isset($result) && $result) {
                     echo '<div class="alert alert-success">Success!!!</div>';
                 }
                 ?>
@@ -69,7 +46,7 @@ if(!empty($_POST)){
         <div class="col-12">
             <footer>
                 This is a footer
-                <a href="index.php">Admin Panel</a>
+                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
             </footer>
         </div>
 
