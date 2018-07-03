@@ -1,14 +1,4 @@
 
-<?php
-
-include_once 'config.php';
-$query = $pdo->prepare('SELECT * FROM blog_posts ORDER BY id DESC');
-$query->execute();
-
-$blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
-
-?>
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -49,7 +39,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
         <div class="col-12">
             <footer>
                 This is a footer
-                <a href="admin/index.php">Admin Panel</a>
+                <a href="../admin/index.php">Admin Panel</a>
             </footer>
         </div>
 
