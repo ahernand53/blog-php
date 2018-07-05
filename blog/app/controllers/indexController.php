@@ -2,7 +2,7 @@
 
 namespace app\controllers;
 
-class IndexController{
+class indexController{
 
     public function getIndex(){
 

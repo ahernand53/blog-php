@@ -26,23 +26,9 @@ use Phroute\Phroute\RouteCollector;
 
 $router = new RouteCollector();
 
-$router->controller('/', app\controllers\IndexController::class);
-$router->controller('/admin', app\controllers\admin\IndexController::class);
+$router->controller('/', app\controllers\indexController::class);
+$router->controller('/admin', app\controllers\admin\adminController::class);
 $router->controller('/admin/posts', app\controllers\admin\PostController::class);
-
-
-$router->get('admin/posts/delete', function () use ($pdo){
-    $id = $_GET['id'];
-    $sql = 'DELETE FROM blog_posts WHERE id=:$id';
-    $query = $pdo->prepare($sql);
-
-    $query->execute([
-        'id' => $id
-    ]);
-
-    header("Location:" . BASE_URL . "admin/posts");
-});
-
 
 
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
