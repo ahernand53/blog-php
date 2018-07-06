@@ -1,431 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90128c62-5215-48cb-a2ad-65b6736197cb" name="Default" comment="Using and add Eloquent">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/app/models/BlogPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/container/Illuminate/Container/BindingResolutionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/container/Illuminate/Container/Container.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/container/Illuminate/Container/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Capsule/Manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/ConnectionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/ConnectionResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/ConnectionResolverInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/PostgresConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/SQLiteConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Connectors/SqlServerConnector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/BaseCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/InstallCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/MigrateCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/RefreshCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/ResetCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/Migrations/RollbackCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Console/SeedCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/MassAssignmentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/ModelNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/BelongsTo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphOneOrMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphPivot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphTo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/MorphToMany.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/Pivot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Relations/Relation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/ScopeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/SoftDeletingScope.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/SoftDeletingTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Grammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/DatabaseMigrationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/Migration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/MigrationCreator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/MigrationRepositoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/Migrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/blank.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/create.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Migrations/stubs/update.stub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MySqlConnection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/PostgresConnection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Expression.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Grammars/Grammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Grammars/MySqlGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Grammars/PostgresGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Grammars/SQLiteGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/JoinClause.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Processors/MySqlProcessor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Processors/PostgresProcessor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Processors/Processor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Processors/SQLiteProcessor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Query/Processors/SqlServerProcessor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/QueryException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/SQLiteConnection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Blueprint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Builder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/Grammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/MySqlGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/PostgresGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Schema/MySqlBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/SeedServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Seeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/SqlServerConnection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/events/Illuminate/Events/Dispatcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/events/Illuminate/Events/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/events/Illuminate/Events/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Arr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/ArrayableInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/JsonableInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/MessageProviderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/RenderableInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/ResponsePreparerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Artisan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Crypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Facade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/HTML.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Hash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Lang.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Paginator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redirect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Response.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/SSH.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Schema.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/URL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Fluent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/NamespacedItemResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Pluralizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/SerializableClosure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/ServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Str.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Traits/CapsuleManagerTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Traits/MacroableTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/ViewErrorBag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/CarbonPeriod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/af.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/az.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/bs_BA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/cy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/da.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/de.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/dv_MV.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/el.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/en.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/es.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/et.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/gl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/gu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/he.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/hi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/hy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/id.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/is.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/it.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ka.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/kk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/km.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/mk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/mn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/my.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/no.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/oc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ps.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sq.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sr_Cyrl_ME.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sr_Latn_ME.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sr_ME.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/sw.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/th.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/ur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Lang/zh_TW.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/Carbon/Translator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/nesbot/carbon/src/JsonSerializable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Catalogue/AbstractOperation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Catalogue/MergeOperation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Catalogue/OperationInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Catalogue/TargetOperation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Command/XliffLintCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/DataCollector/TranslationDataCollector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/DataCollectorTranslator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/DependencyInjection/TranslationDumperPass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/DependencyInjection/TranslationExtractorPass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/DependencyInjection/TranslatorPass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/CsvFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/DumperInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/FileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/IcuResFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/IniFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/JsonFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/MoFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/PhpFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/PoFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/QtFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/XliffFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Dumper/YamlFileDumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/InvalidResourceException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/LogicException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/NotFoundResourceException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Exception/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Extractor/AbstractFileExtractor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Extractor/ChainExtractor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Extractor/ExtractorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Extractor/PhpExtractor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Extractor/PhpStringTokenParser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Formatter/ChoiceMessageFormatterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Formatter/MessageFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Formatter/MessageFormatterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/IdentityTranslator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Interval.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/ArrayLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/CsvFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/FileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/IcuDatFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/IcuResFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/IniFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/JsonFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/LoaderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/MoFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/PhpFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/PoFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/QtFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/XliffFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/YamlFileLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/schema/dic/xliff-core/xliff-core-1.2-strict.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/schema/dic/xliff-core/xliff-core-2.0.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Loader/schema/dic/xliff-core/xml.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/LoggingTranslator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/MessageCatalogue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/MessageCatalogueInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/MessageSelector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/MetadataAwareInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Reader/TranslationReader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Reader/TranslationReaderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Resources/schemas/xliff-core-1.2-strict.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Catalogue/AbstractOperationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Catalogue/MergeOperationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Catalogue/TargetOperationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Command/XliffLintCommandTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/DataCollector/TranslationDataCollectorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/DependencyInjection/TranslationDumperPassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/DependencyInjection/TranslationExtractorPassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/DependencyInjection/TranslationPassTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/CsvFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/FileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/IcuResFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/IniFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/JsonFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/MoFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Dumper/YamlFileDumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Extractor/PhpExtractorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Formatter/MessageFormatterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/IdentityTranslatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/IntervalTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/CsvFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/IcuDatFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/IcuResFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/IniFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/JsonFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/LocalizedTestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/MoFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/PhpFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/PoFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/QtFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/XliffFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Loader/YamlFileLoaderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/LoggingTranslatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/MessageCatalogueTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/MessageSelectorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/PluralizationRulesTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/TranslatorCacheTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/TranslatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Util/ArrayConverterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/Writer/TranslationWriterTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty-translation.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty-translation.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/empty.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/encoding.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/escaped-id-plurals.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/escaped-id.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/extractor/resource.format.engine" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/extractor/this.is.a.template.format.engine" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/extractor/translation.html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/fuzzy-translations.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/invalid-xml-resources.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/malformed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/messages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/messages_linear.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/non-valid.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/non-valid.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/plurals.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/plurals.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resname.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/corrupted/resources.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/en.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/fr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/packagelist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/dat/resources.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resourcebundle/res/en.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-2.0-clean.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-2.0-multi-segment-unit.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-2.0.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-clean.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-notes-meta.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-target-attributes.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources-tool-info.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.dump.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/resources.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/valid.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/with-attributes.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/withdoctype.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Tests/fixtures/withnote.xlf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Translator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/TranslatorBagInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/TranslatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Util/ArrayConverter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Writer/TranslationWriter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/Writer/TranslationWriterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/symfony/translation/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Dotenv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Exception/InvalidCallbackException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Exception/ValidationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv/src/Validator.php" afterDir="false" />
+    <list default="true" id="90128c62-5215-48cb-a2ad-65b6736197cb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/phpmd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/DataWrapper/ArrayWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/DataWrapper/WrapperInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ErrorMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AbstractRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AbstractStringRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Alpha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AlphaNumHyphen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AlphaNumeric.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayMaxLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayMinLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Between.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Callback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/DateTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/EmailDomain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Equal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageHeight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageRatio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageWidth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Size.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/FullName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/GreaterThan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/InList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Integer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/IpAddress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Length.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/LessThan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Match.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/MaxLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/MinLength.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/NotInList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/NotRegex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Number.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Regex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Required.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWhen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWith.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWithout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Time.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageHeight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageRatio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageWidth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Required.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Size.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Website.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/RuleCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/RuleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Util/Arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ValidatorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ValueValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/controllers/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/controllers/indexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_namespaces.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_psr4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/SeedServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/SeedServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/events/Illuminate/Events/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/events/Illuminate/Events/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/MessageProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Contracts/MessageProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Artisan.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Artisan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Crypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Crypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Hash.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Hash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Lang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Paginator.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Paginator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redirect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Redis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/URL.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/URL.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -434,54 +123,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="827a0349-ec9a-4c23-95c3-ce9eae5385d7" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="827a0349-ec9a-4c23-95c3-ce9eae5385d7" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
     <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/controllers/indexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="405">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
               <folding>
                 <element signature="e#140#175#0#PHP" expanded="true" />
               </folding>
@@ -489,26 +141,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/adminController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="540">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="e#41#76#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert-post.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -528,9 +195,11 @@
       <list>
         <option value="$PROJECT_DIR$/blog/composer.json" />
         <option value="$PROJECT_DIR$/blog/app/controllers/indexController.php" />
+        <option value="$PROJECT_DIR$/blog/app/models/BlogPost.php" />
+        <option value="$PROJECT_DIR$/blog/.env" />
         <option value="$PROJECT_DIR$/blog/public/index.php" />
         <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
-        <option value="$PROJECT_DIR$/blog/app/models/BlogPost.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
       </list>
     </option>
   </component>
@@ -559,12 +228,13 @@
       <path value="$PROJECT_DIR$/blog/vendor/illuminate/support" />
       <path value="$PROJECT_DIR$/blog/vendor/illuminate/events" />
       <path value="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/blog/vendor/siriusphp/validation" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
+    <option name="x" value="1423" />
     <option name="y" value="-2" />
-    <option name="width" value="1440" />
+    <option name="width" value="1383" />
     <option name="height" value="902" />
   </component>
   <component name="ProjectView">
@@ -580,51 +250,6 @@
               <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-php" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -633,7 +258,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../databases" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -660,37 +285,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530809972219</updated>
-      <workItem from="1530809973692" duration="6742000" />
+      <workItem from="1530809973692" duration="7297000" />
+      <workItem from="1530841082934" duration="4388000" />
     </task>
+    <task id="LOCAL-00001" summary="Using and add Eloquent">
+      <created>1530840496073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530840496073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Using and add Eloquent">
+      <created>1530840748329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530840748329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6742000" />
+    <option name="totallyTimeSpent" value="11685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1423" y="-2" width="1383" height="902" extended-state="6" />
     <layout>
+      <window_info active="true" content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.20044877" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32985657" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50037396" side_tool="true" weight="0.3285528" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50112194" side_tool="true" weight="0.32985657" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49962604" weight="0.3285528" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.197457" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962604" visible="true" weight="0.32769832" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4988781" weight="0.32985657" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,18 +345,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Using and add Eloquent" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/composer.json">
+    <entry file="file://$PROJECT_DIR$/blog/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="435">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#140#175#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.env">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -724,13 +365,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/public/index.php">
+    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#140#175#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -741,28 +389,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/adminController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#140#175#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="540">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding>
             <element signature="e#41#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
         </state>
       </provider>
     </entry>
