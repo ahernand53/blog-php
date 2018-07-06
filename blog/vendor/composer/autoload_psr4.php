@@ -9,5 +9,8 @@ return array(
     'app\\' => array($baseDir . '/app'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Phroute\\Phroute\\' => array($vendorDir . '/phroute/phroute/src/Phroute'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
+    '' => array($vendorDir . '/nesbot/carbon/src'),
 );
