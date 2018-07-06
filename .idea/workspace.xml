@@ -2,83 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90128c62-5215-48cb-a2ad-65b6736197cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/phpmd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/DataWrapper/ArrayWrapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/DataWrapper/WrapperInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ErrorMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AbstractRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AbstractStringRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Alpha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AlphaNumHyphen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/AlphaNumeric.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayLength.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayMaxLength.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/ArrayMinLength.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Between.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Callback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/DateTime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/EmailDomain.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Equal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Extension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageHeight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageRatio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/ImageWidth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/File/Size.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/FullName.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/GreaterThan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/InList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Integer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/IpAddress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Length.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/LessThan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Match.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/MaxLength.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/MinLength.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/NotInList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/NotRegex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Number.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Regex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Required.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWhen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWith.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/RequiredWithout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Extension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageHeight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageRatio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/ImageWidth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Required.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Upload/Size.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Rule/Website.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/RuleCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/RuleFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Util/Arr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/Validator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ValidatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/vendor/siriusphp/validation/src/ValueValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/controllers/admin/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views/admin/insert-user.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views/admin/users.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blog/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" afterDir="false" />
@@ -113,8 +42,7 @@
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views/admin/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/index.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,22 +57,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-              <folding>
-                <element signature="e#140#175#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="270">
               <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="e#41#76#0#PHP" expanded="true" />
@@ -153,29 +69,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert-post.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <folding>
+                <element signature="e#41#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert-user.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-user.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/users.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -197,9 +143,17 @@
         <option value="$PROJECT_DIR$/blog/app/controllers/indexController.php" />
         <option value="$PROJECT_DIR$/blog/app/models/BlogPost.php" />
         <option value="$PROJECT_DIR$/blog/.env" />
-        <option value="$PROJECT_DIR$/blog/public/index.php" />
         <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
         <option value="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
+        <option value="$PROJECT_DIR$/blog/app/models/Users.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/user.twig" />
+        <option value="$PROJECT_DIR$/blog/views/admin/index.twig" />
+        <option value="$PROJECT_DIR$/blog/public/index.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/users.twig" />
+        <option value="$PROJECT_DIR$/blog/app/models/User.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/create-user.twig" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/admin/UserController.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/insert-user.twig" />
       </list>
     </option>
   </component>
@@ -232,10 +186,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1423" />
-    <option name="y" value="-2" />
-    <option name="width" value="1383" />
-    <option name="height" value="902" />
+    <option name="x" value="1568" />
+    <option name="width" value="1037" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -249,6 +202,58 @@
             <path>
               <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530809972219</updated>
       <workItem from="1530809973692" duration="7297000" />
-      <workItem from="1530841082934" duration="4388000" />
+      <workItem from="1530841082934" duration="10511000" />
     </task>
     <task id="LOCAL-00001" summary="Using and add Eloquent">
       <created>1530840496073</created>
@@ -302,25 +307,34 @@
       <option name="project" value="LOCAL" />
       <updated>1530840748329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding and using Siriusphp/Validation">
+      <created>1530886111662</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530886111662</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11685000" />
+    <option name="totallyTimeSpent" value="17808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1423" y="-2" width="1383" height="902" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.20044877" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50112194" side_tool="true" weight="0.32985657" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962604" weight="0.32769832" />
+      <window_info content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.20044877" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962604" visible="true" weight="0.32769832" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -330,7 +344,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4988781" weight="0.32985657" />
     </layout>
   </component>
@@ -342,7 +355,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Using and add Eloquent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using and add Eloquent" />
+    <MESSAGE value="Adding and using Siriusphp/Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding and using Siriusphp/Validation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog/public/index.php">
@@ -365,9 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -375,27 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/controllers/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/adminController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -409,19 +403,62 @@
     <entry file="file://$PROJECT_DIR$/blog/app/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="41" column="81" lean-forward="true" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
           <folding>
             <element signature="e#140#175#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/users.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/adminController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="270">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding>
             <element signature="e#41#76#0#PHP" expanded="true" />
@@ -429,10 +466,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+    <entry file="file://$PROJECT_DIR$/blog/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="e#41#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-user.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
