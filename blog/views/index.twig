@@ -7,7 +7,9 @@
             <h2>{{ blogPost.title }}</h2>
             <p>Jan 1,2018 by <a href=""title="">Gabriel Manjarres</a></p>
             <div class="blog-post-image">
-                <img src="../images/keyboard.jpg" alt="">
+                {% if blogPost.img_url %}
+                    <img src="{{ blogPost.img_url }}" alt="">
+                {% endif %}
             </div>
             <div class="blog-post-content">
                 {{ blogPost.content }}
