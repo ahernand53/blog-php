@@ -3,6 +3,7 @@
 namespace app\controllers\admin;
 
 use app\controllers\BaseController;
+use app\Log;
 use app\models\BlogPost;
 use Sirius\Validation\Validator;
 
@@ -35,6 +36,7 @@ class PostController extends BaseController {
             if($_POST['img']){
                 $blogPost->img_url = $_POST['img'];
             }
+            Log::logInfo('New Post: ' . $blogPost->title);
             $blogPost->save();
             $result = true;
         }
@@ -48,6 +50,36 @@ class PostController extends BaseController {
             'result' => $result,
             'errors' => $errors
         ]);
+    }
+
+    public function getUpdate($id){
+
+        $blogPost = BlogPost::find($id);
+        return $this->render('admin/update-post.twig', ['blogPost' => $blogPost]);
+
+    }
+
+    public function postUpdate(){
+        $validator = new Validator();
+        $validator->add('id', 'required');
+        $validator->add('content', 'required');
+
+        if($validator->validate($_POST)){
+
+            BlogPost::where('id', $_POST['id'])
+                    ->update([
+                        'img_url' => $_POST['img'],
+                        'content' => $_POST['content']
+                    ]);
+
+            header('Location:' . BASE_URL . 'admin/posts');
+        }
+    }
+
+    public function getDelete($id){
+
+        BlogPost::destroy($id);
+        header('Location:' . BASE_URL . 'admin/posts');
     }
 
 }

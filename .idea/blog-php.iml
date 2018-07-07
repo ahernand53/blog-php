@@ -8,8 +8,10 @@
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/illuminate/database" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/illuminate/events" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phroute/phroute" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/siriusphp/validation" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/translation" />

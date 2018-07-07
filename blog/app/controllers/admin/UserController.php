@@ -3,6 +3,7 @@
 namespace app\controllers\admin;
 
 use app\controllers\BaseController;
+use app\Log;
 use app\models\User;
 use Sirius\Validation\Validator;
 
@@ -42,7 +43,7 @@ class UserController extends BaseController{
             $user->name = $_POST['name'];
             $user->email = $_POST['email'];
             $user->password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-
+            Log::logInfo('New Usser: ' . $user->email);
             $user->save();
             $result = true;
 

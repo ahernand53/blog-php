@@ -14,6 +14,8 @@
       <path value="$PROJECT_DIR$/blog/vendor/illuminate/events" />
       <path value="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/blog/vendor/siriusphp/validation" />
+      <path value="$PROJECT_DIR$/blog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/log" />
     </include_path>
   </component>
 </project>

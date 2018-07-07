@@ -16,8 +16,8 @@
                 {% for blogPost in blogPosts %}
                 <tr>
                     <td>{{ blogPost.title }}</td>
-                    <td><a class="btn btn-warning" href="{{ "admin/post/update" | url }}">Edit</a></td>
-                    <td><a class="btn btn-danger" href="<?php echo BASE_URL;?>admin/posts/delete?id=<?php echo $blogPost['id'] ?>">Delete</a></td>
+                    <td><a class="btn btn-warning" href="{{ "admin/posts/update/" | url }}{{ blogPost.id }}">Edit</a></td>
+                    <td><a class="btn btn-danger" href="{{ 'admin/posts/delete/' | url }}{{ blogPost.id }}">Delete</a></td>
                 </tr>
             {% endfor %}
             </tbody>

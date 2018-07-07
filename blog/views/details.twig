@@ -1,0 +1,20 @@
+{% extends "layout.twig" %}
+{% block content%}
+
+    <div class="blog-post">
+        <div class="blog-post-title form-group">
+            <a class="btn btn-primary" href="{{ '' | url }}">Back</a>
+            <h2>{{ blogPost.title }}</h2>
+        </div>
+        <p>Jan 1,2018 by <a href=""title="">Gabriel Manjarres</a></p>
+        <div class="blog-post-image">
+            {% if blogPost.img_url %}
+                <img src="{{ blogPost.img_url }}" alt="">
+            {% endif %}
+        </div>
+        <div class="blog-post-content">
+            {{ blogPost.content }}
+        </div>
+    </div>
+
+{% endblock %}

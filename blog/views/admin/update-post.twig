@@ -1,0 +1,33 @@
+{% extends "layout.twig" %}
+{% block content %}
+
+    <a class="btn btn-primary" style="margin-bottom: 10px" href="{{ 'admin/posts' | url }}">Back</a>
+    <form action="{{ 'admin/posts/update' | url }}" method="post">
+        {% if errors %}
+            {% include ('partials/errors.twig') %}
+        {% endif %}
+        {% if result %}
+
+            <div class="alert alert-success">
+                Success!!!
+            </div>
+
+        {% endif %}
+        <div class="form-group">
+            <h2>{{ blogPost.title }}</h2>
+        </div>
+        <div class="form-group">
+            <label for="inputImg">Image</label>
+            <input class="form-control" type="text" name="img" id="inputImg" value="{{ blogPost.img_url }}">
+        </div>
+        <input type="hidden" name="id" value="{{ blogPost.id }}">
+        <div class="form-group">
+            <label for="inputContent">Content</label>
+            <textarea class="form-control" name="content" id="inputContent" rows="10">{{ blogPost.content }}</textarea>
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" style="margin-top: 10px" type="submit" value="Save">
+        </div>
+    </form>
+
+{% endblock %}

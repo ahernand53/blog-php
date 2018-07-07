@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90128c62-5215-48cb-a2ad-65b6736197cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/public/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/models/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/models/BlogPost.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/DatabaseServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/database/Illuminate/Database/MigrationServiceProvider.php" afterDir="false" />
@@ -40,9 +36,6 @@
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/Validator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/Facades/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vendor/illuminate/support/Illuminate/Support/MessageBag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views/layout.twig" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views/layout.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +53,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="360">
+              <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
               <folding>
                 <element signature="e#140#175#0#PHP" expanded="true" />
               </folding>
@@ -72,8 +65,8 @@
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="363">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#41#76#0#PHP" expanded="true" />
               </folding>
@@ -81,50 +74,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/controllers/AuthController.php">
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/public/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="72" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update-post.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/update-post.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
-                <element signature="e#35#55#0#PHP" expanded="true" />
+                <element signature="e#80#107#0#HTML" expanded="true" />
+                <element signature="e#1038#1062#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert-post.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/partials/errors.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="318">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -132,26 +108,50 @@
       <file leaf-file-name="posts.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="19" column="123" lean-forward="true" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/public/css/blog.css">
+      <file leaf-file-name="details.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/details.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/controllers/DetailsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#35#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+              <folding>
+                <element signature="e#41#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,20 +184,25 @@
         <option value="$PROJECT_DIR$/blog/views/admin/users.twig" />
         <option value="$PROJECT_DIR$/blog/app/models/User.php" />
         <option value="$PROJECT_DIR$/blog/views/admin/create-user.twig" />
-        <option value="$PROJECT_DIR$/blog/app/controllers/admin/UserController.php" />
         <option value="$PROJECT_DIR$/blog/views/partials/errors.twig" />
         <option value="$PROJECT_DIR$/blog/views/admin/insert-user.twig" />
         <option value="$PROJECT_DIR$/blog/views/login.twig" />
         <option value="$PROJECT_DIR$/blog/views/admin/index.twig" />
-        <option value="$PROJECT_DIR$/blog/app/controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/blog/public/index.php" />
         <option value="$PROJECT_DIR$/blog/app/controllers/admin/adminController.php" />
         <option value="$PROJECT_DIR$/blog/app/models/BlogPost.php" />
-        <option value="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
-        <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Log.php" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/admin/UserController.php" />
+        <option value="$PROJECT_DIR$/blog/public/index.php" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/DetailsController.php" />
+        <option value="$PROJECT_DIR$/blog/views/details.twig" />
         <option value="$PROJECT_DIR$/blog/views/index.twig" />
-        <option value="$PROJECT_DIR$/blog/public/css/blog.css" />
+        <option value="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
+        <option value="$PROJECT_DIR$/blog/views/admin/update-post.twig" />
         <option value="$PROJECT_DIR$/blog/views/layout.twig" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/posts.twig" />
+        <option value="$PROJECT_DIR$/blog/public/css/blog.css" />
       </list>
     </option>
   </component>
@@ -227,13 +232,15 @@
       <path value="$PROJECT_DIR$/blog/vendor/illuminate/events" />
       <path value="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/blog/vendor/siriusphp/validation" />
+      <path value="$PROJECT_DIR$/blog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/log" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1423" />
-    <option name="y" value="-2" />
-    <option name="width" value="1383" />
-    <option name="height" value="902" />
+    <option name="x" value="57" />
+    <option name="y" value="157" />
+    <option name="width" value="1309" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -295,7 +302,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530809972219</updated>
       <workItem from="1530809973692" duration="7297000" />
-      <workItem from="1530841082934" duration="27434000" />
+      <workItem from="1530841082934" duration="36651000" />
     </task>
     <task id="LOCAL-00001" summary="Using and add Eloquent">
       <created>1530840496073</created>
@@ -332,23 +339,43 @@
       <option name="project" value="LOCAL" />
       <updated>1530931541749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding url of images in the pages">
+      <created>1530934661100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530934661100</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding url of images in the pages">
+      <created>1530934743661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530934743661</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add (edit and delete in blog-post)">
+      <created>1530977105626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530977105626</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34731000" />
+    <option name="totallyTimeSpent" value="43948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1423" y="-2" width="1383" height="902" extended-state="6" />
-    <editor active="true" />
+    <frame x="57" y="157" width="1309" height="743" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50112194" side_tool="true" weight="0.32769832" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50112194" side_tool="true" weight="0.3262295" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4988781" visible="true" weight="0.32769832" />
-      <window_info content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.20044877" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4988781" visible="true" weight="0.41311476" />
+      <window_info content_ui="combo" x="1830" y="70" width="284" height="769" id="Project" order="0" visible="true" weight="0.21219319" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899868" />
@@ -368,6 +395,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -376,7 +406,9 @@
     <MESSAGE value="Adding and using Siriusphp/Validation" />
     <MESSAGE value="Created Users and user's tables" />
     <MESSAGE value="add validate in all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validate in all pages" />
+    <MESSAGE value="Adding url of images in the pages" />
+    <MESSAGE value="Add (edit and delete in blog-post)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add (edit and delete in blog-post)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog/public/index.php">
@@ -420,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/login.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/admin/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -448,17 +473,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/partials/errors.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="26" column="90" lean-forward="true" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+          <folding>
+            <element signature="e#35#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/logs/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -469,92 +535,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/UserController.php">
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+        <state relative-caret-position="375">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
           <folding>
-            <element signature="e#41#76#0#PHP" expanded="true" />
+            <element signature="e#80#107#0#HTML" expanded="true" />
+            <element signature="e#1038#1062#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/details.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
           <folding>
             <element signature="e#140#175#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/DetailsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="72" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#35#55#0#PHP" expanded="true" />
+            <element signature="e#35#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/models/BlogPost.php">
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="208">
+          <caret line="45" column="55" lean-forward="true" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="e#41#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+        <state relative-caret-position="318">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/partials/errors.twig">
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="285">
+          <caret line="19" column="123" lean-forward="true" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
+    <entry file="file://$PROJECT_DIR$/blog/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/update-post.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#80#107#0#HTML" expanded="true" />
+            <element signature="e#1038#1062#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#41#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/public/css/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>

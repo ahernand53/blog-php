@@ -52,6 +52,7 @@ $router->group(['before' => 'auth'], function ($router){
     $router->controller('/admin', app\controllers\admin\adminController::class);
     $router->controller('/admin/posts', app\controllers\admin\PostController::class);
     $router->controller('/admin/users', app\controllers\admin\UserController::class);
+    $router->controller('/details', app\controllers\DetailsController::class);
 });
 $router->controller('/', app\controllers\indexController::class);
 

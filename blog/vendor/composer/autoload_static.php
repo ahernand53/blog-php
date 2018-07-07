@@ -28,7 +28,12 @@ class ComposerStaticInit5bc05c09112a37ed54fe17351614cc88
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Phroute\\Phroute\\' => 16,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'D' => 
         array (
@@ -57,9 +62,17 @@ class ComposerStaticInit5bc05c09112a37ed54fe17351614cc88
         array (
             0 => __DIR__ . '/..' . '/siriusphp/validation/src',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Phroute\\Phroute\\' => 
         array (
             0 => __DIR__ . '/..' . '/phroute/phroute/src/Phroute',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'Dotenv\\' => 
         array (
