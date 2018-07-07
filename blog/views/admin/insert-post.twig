@@ -2,7 +2,7 @@
 {% block content %}
 
     <a class="btn btn-primary" style="margin-bottom: 10px" href="{{ 'admin/posts' | url }}">Back</a>
-    <form method="post">
+    <form method="post" onsubmit="return validateForm()">
         {% if errors %}
             {% include ('partials/errors.twig') %}
         {% endif %}
@@ -29,5 +29,26 @@
             <input class="btn btn-primary" style="margin-top: 10px" type="submit" value="Save">
         </div>
     </form>
+
+{% endblock %}
+
+{% block js %}
+
+<script>
+
+    function validateForm() {
+        var title = document.getElementById('inputTitle').value.trim();
+        var content = document.getElementById('inputContent').value.trim();
+        if (title === '' || content === ''){
+            swal({
+                type: 'error',
+                title: 'Oops...',
+                text: 'Title and Content are required...'
+            });
+            return false;
+        }
+    }
+
+</script>
 
 {% endblock %}

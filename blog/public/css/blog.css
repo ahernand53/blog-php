@@ -1,11 +1,8 @@
 .blog-post-image img{
     width: 100%;
-<<<<<<< HEAD
 }
 
 .blog-post-title a:hover{
     text-decoration: none;
-    color: greenyellow;
-=======
->>>>>>> d4a9999ab1cf6b11c7b4dfa12b624b2d24f683b8
+    color: #b437ff;
 }

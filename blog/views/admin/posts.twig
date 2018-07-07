@@ -17,7 +17,7 @@
                 <tr>
                     <td>{{ blogPost.title }}</td>
                     <td><a class="btn btn-warning" href="{{ "admin/posts/update/" | url }}{{ blogPost.id }}">Edit</a></td>
-                    <td><a class="btn btn-danger" href="{{ 'admin/posts/delete/' | url }}{{ blogPost.id }}">Delete</a></td>
+                    <td><a class="btn btn-danger" id="submit" href="{{ 'admin/posts/delete/' | url}}{{ blogPost.id }}">Delete</a></td>
                 </tr>
             {% endfor %}
             </tbody>
