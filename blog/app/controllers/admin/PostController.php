@@ -36,7 +36,10 @@ class PostController extends BaseController {
             if($_POST['img']){
                 $blogPost->img_url = $_POST['img'];
             }
+<<<<<<< HEAD
             Log::logInfo('New Post: ' . $blogPost->title);
+=======
+>>>>>>> d4a9999ab1cf6b11c7b4dfa12b624b2d24f683b8
             $blogPost->save();
             $result = true;
         }
