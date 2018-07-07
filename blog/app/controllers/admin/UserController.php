@@ -33,22 +33,20 @@ class UserController extends BaseController{
         $validator = new Validator();
         $validator->add('name', 'required');
         $validator->add('email', 'required');
+        $validator->add('email', 'email');
         $validator->add('password', 'required');
 
-        if($validator->validate($_POST)){
+        if($validator->validate($_POST)) {
 
-            $user = new User([
-
-                'name' => $_POST['name'],
-                'email' => $_POST['email'],
-                'password' => md5($_POST['password'])
-
-            ]);
+            $user = new User();
+            $user->name = $_POST['name'];
+            $user->email = $_POST['email'];
+            $user->password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
             $user->save();
             $result = true;
 
-        }else{
+        } else {
 
             $errors = $validator->getMessages();
 

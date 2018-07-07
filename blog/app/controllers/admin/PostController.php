@@ -33,9 +33,9 @@ class PostController extends BaseController {
             ]);
             $blogPost->save();
             $result = true;
-        }else{
-            $errors = $validator->getMessages();
         }
+
+        $errors = $validator->getMessages();
 
 
 

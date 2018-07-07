@@ -4,21 +4,7 @@
     <a class="btn btn-primary" style="margin-bottom: 10px" href="{{ 'admin/posts' | url }}">Back</a>
     <form method="post">
         {% if errors %}
-
-            <div class="alert alert-danger">
-                <ul>
-                    {% for input,messages in errors%}
-
-                        {% for message in messages %}
-
-                            <li>{{ input }}: {{ message }}</li>
-
-                        {% endfor %}
-
-                    {% endfor %}
-                </ul>
-            </div>
-
+            {% include ('partials/errors.twig') %}
         {% endif %}
         {% if result %}
 
